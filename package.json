@@ -1,6 +1,14 @@
 {
   "name": "nota-extension",
   "packageManager": "yarn@3.2.1",
+  "scripts": {
+    "start": "web-ext run",
+    "start:chrome": "web-ext run --target=chromium --chromium-binary=/opt/homebrew/bin/chromium",
+    "lint": "web-ext lint",
+    "sign": "web-ext sign",
+    "build": "web-ext build",
+    "docs": "web-ext docs"
+  },
   "devDependencies": {
     "web-ext": "^7.0.0"
   }

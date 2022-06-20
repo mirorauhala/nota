@@ -1,0 +1,29 @@
+{
+  "name": "Nota",
+  "author": "Miro Rauhala",
+  "version": "0.0.1",
+  "manifest_version": 3,
+
+  "background_serviceworker": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "19": "button/geo-19.png",
+      "38": "button/geo-38.png"
+    },
+    "default_title": "Whereami?",
+    "default_popup": "popup/geo.html"
+  },
+
+  "commands": {
+    "toggle-feature": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "linux": "Ctrl+Shift+U"
+      },
+      "description": "Send a 'toggle-feature' event"
+    }
+  }
+}
