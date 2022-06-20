@@ -1,0 +1,7 @@
+{
+  "name": "nota-extension",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "web-ext": "^7.0.0"
+  }
+}
